@@ -543,7 +543,7 @@
   var banner = one('[data-yr-banner]');
   if(banner){
     if(ret.get('order') === 'received'){
-      banner.textContent = 'Order received \u2014 your card is authorized, not charged; it\u2019s charged only when we confirm sourcing, and released in full if we can\u2019t.';
+      banner.textContent = 'Order received \u2014 your card is authorized, not charged; it\u2019s charged when your order ships, and released in full if we can\u2019t.';
       banner.hidden = false;
     } else if(ret.get('sent') === '1'){
       banner.textContent = 'Message sent \u2014 thanks for writing. We answer within one business day.';
