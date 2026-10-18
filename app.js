@@ -167,7 +167,6 @@
      working because it holds element references, not positions. Heat reads
      the build-time data-heat (the bottle's Scoville sort key) and sorts
      hottest first. All sorts are stable — ties keep the featured order. */
-*/
   all('[data-yr-sort]').forEach(function(sel){
     var grid = document.getElementById(sel.getAttribute('data-yr-sort'));
     if(!grid) return;
