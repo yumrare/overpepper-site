@@ -314,7 +314,7 @@
      preview-bundle router also keys on; all visible copy says cart. */
   var CART_KEY = 'overpepper-cart-v1';
   var STASH_KEY = 'overpepper-stash-v1';
-  var SHIP_FLAT = 395, FREE_SHIP = 5000;  /* cents — mirror build.py SHIP_FLAT_CENTS / FREE_SHIP_CENTS */
+  var SHIP_FLAT = 595, FREE_SHIP = 5000;  /* cents — mirror build.py SHIP_FLAT_CENTS / FREE_SHIP_CENTS */
   var drawer = one('#yr-stash');
   var cartBtn = one('[data-yr-stash-open]');
   var cart = {};
