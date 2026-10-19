@@ -1,5 +1,5 @@
 {
-  "asset_stamp": "20261018a",
+  "asset_stamp": "20261019a",
   "bands": {
     "Hot": 8,
     "Overpeppered": 8,
@@ -7,6 +7,7 @@
   },
   "build_date": "2026-10-17",
   "direct_checkout_paypal": true,
+  "guide_pages": 8,
   "maker_collections": 20,
   "photos": 24,
   "priced_items": 24,
